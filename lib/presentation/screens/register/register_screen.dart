@@ -50,7 +50,7 @@ class _RegisterScreenState extends State<RegisterScreen> {
                             onTap: (){
                               Navigator.pop(context);
                             },
-                            child: CircleAvatar(child: Icon(Icons.arrow_back_ios_outlined, color: white,), backgroundColor: lightBlue, radius: 20,)),
+                            child: CircleAvatar(child: Icon(Icons.arrow_back_ios_outlined, color: darkBlue,), backgroundColor: lightBlue, radius: 20,)),
                       ),
                       Container(
                         color: blue,
