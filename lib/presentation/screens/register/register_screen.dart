@@ -138,7 +138,7 @@ class _RegisterScreenState extends State<RegisterScreen> {
                                   onPressed: (){
                                     if(formKey.currentState!.validate()){
                                       Fluttertoast.showToast(
-                                          msg: "Login Succeeded!",
+                                          msg: "Register Succeeded!",
                                           toastLength: Toast.LENGTH_LONG,
                                           gravity: ToastGravity.BOTTOM,
                                           timeInSecForIosWeb: 1,
