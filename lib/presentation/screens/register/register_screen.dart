@@ -22,6 +22,7 @@ class RegisterScreen extends StatefulWidget {
 class _RegisterScreenState extends State<RegisterScreen> {
   var phoneNumberController = TextEditingController();
   var emailController = TextEditingController();
+  var passwordController = TextEditingController();
   var formKey = GlobalKey<FormState>();
 
   @override
@@ -122,7 +123,7 @@ class _RegisterScreenState extends State<RegisterScreen> {
                               ),
                               Padding(
                                 padding: EdgeInsets.only(bottom: 2.h),
-                                child: DefaultFormField(controller: emailController, validator: (text){
+                                child: DefaultFormField(controller: passwordController, validator: (text){
                                   if(phoneNumberController.text.isEmpty){
                                     return 'Type your password';
                                   }
